@@ -1,9 +1,5 @@
 import type { Metadata } from 'next';
-import { Cormorant_Garamond, Manrope } from 'next/font/google';
 import './globals.css';
-
-const heading = Cormorant_Garamond({ variable: '--font-heading-serif', subsets: ['latin'], weight: ['500', '600', '700'] });
-const body = Manrope({ variable: '--font-body', subsets: ['latin'], weight: ['400', '500', '600', '700'] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ricardofonsecaadvocacia.com.br'),
@@ -17,5 +13,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR"><body className={`${heading.variable} ${body.variable}`}>{children}</body></html>;
+  return <html lang="pt-BR"><body>{children}</body></html>;
 }
