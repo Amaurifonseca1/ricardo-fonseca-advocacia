@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ricardofonsecaadvocacia.com.br'),
+  metadataBase: new URL('https://ricardo-fonseca-advocaciaa.vercel.app'),
   title: 'Advogado Previdenciário em Maceió | Ricardo Fonseca Advocacia',
   description: 'Advocacia previdenciária em Maceió/AL. Orientação em benefícios do INSS, aposentadorias, BPC/LOAS e benefícios por incapacidade.',
   keywords: ['advogado previdenciário Maceió', 'advocacia previdenciária', 'INSS Maceió', 'BPC LOAS', 'aposentadoria'],

@@ -16,7 +16,7 @@ const team = [
 ];
 
 export default function Home() {
-  const structuredData = { '@context': 'https://schema.org', '@type': 'LegalService', name: 'Ricardo Fonseca Advocacia', description: 'Escritório com foco em Direito Previdenciário.', telephone: '+55 82 8714-0225', postalCode: '57030-101', areaServed: 'Maceió, Alagoas', taxID: '54.145.344/0001-18', url: 'https://ricardofonsecaadvocacia.com.br' };
+  const structuredData = { '@context': 'https://schema.org', '@type': 'LegalService', name: 'Ricardo Fonseca Advocacia', description: 'Escritório com foco em Direito Previdenciário.', telephone: '+55 82 8714-0225', postalCode: '57030-101', areaServed: 'Maceió, Alagoas', taxID: '54.145.344/0001-18', url: 'https://ricardo-fonseca-advocaciaa.vercel.app' };
   return <>
     <a href="#conteudo" className="skip-link">Pular para o conteúdo</a>
     <header className="site-header"><div className="container nav-wrap"><a className="brand" href="#inicio" aria-label="Ricardo Fonseca Advocacia e Consultoria — início"><img src="/logo-navy-cropped.png" alt="Ricardo Fonseca — Advocacia e Consultoria"/></a><nav className="desktop-nav" aria-label="Navegação principal"><a href="#atuacao">Atuação</a><a href="#escritorio">O escritório</a><a href="#equipe">Equipe</a><a href="#duvidas">Dúvidas</a></nav><a className="button button-small desktop-cta" href={whatsappUrl} target="_blank" rel="noreferrer"><MessageCircle size={17}/> Falar no WhatsApp</a><details className="mobile-menu"><summary aria-label="Abrir menu"><Menu size={23}/></summary><nav><a href="#atuacao">Atuação</a><a href="#escritorio">O escritório</a><a href="#equipe">Equipe</a><a href="#duvidas">Dúvidas</a></nav></details></div></header>
